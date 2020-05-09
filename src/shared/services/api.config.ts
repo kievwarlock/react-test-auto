@@ -1,0 +1,1 @@
+export const API_ENDPOINT = 'https://beta.autobooking.com/api/test/v1';

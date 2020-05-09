@@ -1,0 +1,17 @@
+.select {
+  background: white;
+  color: #222;
+  outline: none;
+  cursor: pointer;
+  height: 36px;
+  min-width: 150px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+
+  &:hover, &:active {
+    background: #ddd;
+  }
+
+}

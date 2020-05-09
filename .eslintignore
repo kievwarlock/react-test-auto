@@ -1,0 +1,11 @@
+# Third party
+**/node_modules
+
+# production
+/dist
+
+# report
+/report
+
+# configs
+webpack.*.js

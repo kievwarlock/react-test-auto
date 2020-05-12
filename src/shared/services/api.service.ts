@@ -5,6 +5,7 @@ export const ApiService = {
         const response = await fetch(`${API_ENDPOINT}/${slug}`, {
             method: "GET",
             headers: {
+                "Accept-Language": "ru",
                 "Content-Type": "application/json"
             }
         });

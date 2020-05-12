@@ -5,8 +5,8 @@ import {classes} from "@/shared/utils/utils";
 
 export type SelectValue = {
     id: string | number;
-    text: string | number;
-    value: string | number;
+    label: string | number;
+    slug: string | number;
 }
 
 export type SelectType = CommonProps & {
@@ -34,7 +34,7 @@ export const Select: React.FC<SelectType> = (
         >
             <option key="empty_value" value="">{emptyOptionName}</option>
             {value &&
-                value.map(item => <option key={item.id} value={item.value}>{item.text}</option>)
+                value.map(item => <option key={item.id} value={item.slug}>{item.label}</option>)
             }
         </select>
     )
